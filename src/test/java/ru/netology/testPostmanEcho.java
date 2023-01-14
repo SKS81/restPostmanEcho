@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 class testPostmanEcho {
 
     @Test
-    void shouldTestSomeData() {
+    void shouldTestMyData() {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
